@@ -12,6 +12,9 @@ body {
 main {
     margin-left: 250px; /* Same as nav width */
     padding: 0px 45px;
+    padding-right: 25%;
+    text-align: justify;
+    line-height: 1.75em;
 }
 
 nav {
@@ -37,7 +40,7 @@ nav {
 
 nav a{
     padding-bottom: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -51,30 +54,24 @@ nav a:hover {
     color: #FFF;
 }
 
-#about, 
-#work-experience, 
+#about,
+#work-experience,
 #education, 
 #skills, 
 #certifications {
-    height: 100vh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 30%;
-    text-align: justify;
-    line-height: 1.75em;
-}
-
-#about-header {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;   
+    border-bottom: 2px solid blue;
 }
 
 .about-title {
    font-size: 70px;
    font-weight: bold;
    text-transform: uppercase;
+   padding-bottom: 30px;
+   color: #000;
 }
 
 .div-title {
@@ -95,3 +92,32 @@ nav a:hover {
 .social-icons i:hover {
     color: #F00;
 }
+
+.section-header {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: #000;
+}
+
+.div-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience {
+    gap: 20px;
+    padding-bottom: 60px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.exp-description {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
