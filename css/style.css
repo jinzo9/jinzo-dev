@@ -4,11 +4,14 @@ body {
     font-style: normal;
     font-size: 1em;
     line-height: 1.15em;
+    -webkit-text-size-adjust: none;
+    background-color: #F5F5F4;
+    color: #5E5E5E;
 }
 
 main {
     margin-left: 250px; /* Same as nav width */
-    padding: 0px 30px;
+    padding: 0px 45px;
 }
 
 nav {
@@ -57,4 +60,38 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-right: 30%;
+    text-align: justify;
+    line-height: 1.75em;
+}
+
+#about-header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;   
+}
+
+.about-title {
+   font-size: 70px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.div-title {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.about-description {
+    padding-bottom: 30px;
+}
+
+.social-icons i {
+    font-size: 50px;
+    padding-right: 15px;
+    color: #0F52BA; /* Sapphire */
+}
+
+.social-icons i:hover {
+    color: #F00;
 }
