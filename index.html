@@ -9,74 +9,113 @@
 </head>
 <body>
     <header>
-        <div class="header">
-            <h1>Lucas Rosário</h1>
-            <h2>DevOps Engineer</h2>
-        </div>
+		<img id="about-profile-picture" src="./img/pfp.jpg" alt="My profile picture">
         <nav>
             <a href="#">About</a>
-            <a href="#">Work Experience</a>
+            <a href="#">Experience</a>
             <a href="#">Education</a>
             <a href="#">Skills</a>
             <a href="#">Certifications</a>
         </nav>
-        
     </header>
+
     <main>
         <div class="about">
             <div class="about-header">
-                <img id="about-profile-picture" src="./img/pfp.jpg" alt="My profile picture">
-                <p class="about-title">Hi! My name is Lucas.</p>
+                <h2 class="about-title">Lucas Rosario</h2>
+				<h3>Curitiba, Brazil</h3>
+				<a href="mailto:lsdorosario@gmail.com">lsdorosario@gmail.com</a>
             </div>
             <p class="about-description">I am an IT professional with over 7 years of experience in infrastructure monitoring, IT governance, and incident response in 24/7 operations. Recently, I completed the AWS Cloud Resume Challenge, where I developed a serverless application using AWS, Infrastructure as Code (IaC) with Terraform, and automated CI/CD. Currently, I am focused on Cloud Engineering and DevOps, applying my expertise with tools like AWS, Linux, Zabbix, and automation to ensure scalable, secure, and reliable systems.</p>
         </div>
 
         <div class="work-experience">
-            <h2>Work Experiences</h2>
+            <h2>Experience</h2>
 
             <div class="experience">
-               <h4 class="experience-period">March 2022 - February 2025</h4>
-               <h3 class="experience-title">IT Monitoring Analyst</h3>
-               <h4 class="experience-company">Stefanini Brasil</h4>
-               <div class="experience-description">
-				<ul>
-					<li>Part of AGCO's global 24/7 monitoring team responsible for a hybrid infrastructure (on-premises & multicloud).</li>
-					<li>Built observability pipelines with AWS CloudWatch, Prometheus, and SolarWinds.</li>
-					<li>Optimized backup rotation across five large-scale data centers, cutting time and failures.</li>
-					<li>Led critical incident resolution, coordinating cross-functional teams.</li>
+			   <div class="exp-header">
+				<h3 class="title">IT Monitoring Analyst</h3>
+				<h3 class="period">March 2022 - February 2025</h3>
+			   </div>
+               <h3 class="company">Stefanini Brasil</h3>
+				<ul class="exp-description">
+					<li>Monitored AGCO's hybrid IT infrastructure, spanning on-premises and multicloud environments (AWS, Azure), ensuring system stability, high availability, and quick response to incidents. Used SolarWinds, Prometheus, and AS/400 to track performance and mitigate potential failures before they escalated.</li>
+					<li>Designed and implemented observability pipelines using AWS CloudWatch, Prometheus and SolarWinds, improving real-time system insights and proactive issue resolution. Developed automation scripts to correlate alerts, reducing manual intervention and response times.</li>
+					<li>Led the redesign of backup rotation processes across five global data centers, automating scheduling and execution. This optimization reduced backup execution time by 50% and significantly lowered the risk of data loss due to human error.</li>
+					<li>Acted as the primary point of contact for major incidents, coordinating war rooms with infrastructure, security, and application teams. Ensured efficient problem resolution, root cause analysis, and implementation of long-term fixes to prevent recurrence.</li>
+					<li>Mentored new analysts, improving overall team efficiency by providing hands-on training and detailed process documentation. Developed knowledge bases that standardized incident response procedures, reducing onboarding time for new hires.</li>
 				</ul>
 			   </div>
             </div>
 
             <div class="experience">
-                <h4 class="experience-period"> May 2020 - March 2022</h4>
-                <h3 class="experience-title">Junior IT Monitoring Analyst</h3>
-                <h4 class="experience-company">Stefanini Brasil</h4>
-				<div class="experience-description">
-					<ul>
-						<li>Part of the 24/7 Command Center for the Boticário Group, ensuring high availability and fast incident response.</li>
-						<li>Automated 70% of Zabbix alerts with Python and Bash, reducing operational noise.</li>
-						<li>Refactored backup processes for virtualized servers (VMWare), improving reliability.</li>
-						<li>Reduced MTTR with automated remediation scripts and observability dashboards.</li>
-					</ul>
-				   </div>
+				<div class="exp-header">
+					<h3 class="title">Junior IT Monitoring Analyst</h3>
+					<h3 class="period"> May 2020 - March 2022</h3>
+				</div>
+                <h3 class="company">Stefanini Brasil</h3>
+				<ul class="exp-description">	
+					<li>Provided 24/7 monitoring support for the Boticário Group, ensuring the availability and performance of critical business applications. Actively detected and escalated incidents, minimizing downtime and maintaining service reliability.</li>
+					<li>Played a key role in migrating monitoring operations from DX Spectrum to Zabbix, automating 70% of system alerts with Python and Bash scripts. This significantly reduced alert fatigue, allowing the team to focus on high-priority issues instead of false positives.</li>
+					<li>Refactored backup processes for virtualized environments (VMware), introducing automated validation checks to reduce failures. Improved backup reliability, ensuring data integrity for business-critical applications.</li>
+					<li>Developed automated remediation scripts and real-time observability dashboards using Grafana. These tools helped the team rapidly identify, diagnose, and resolve incidents, cutting mean time to resolution (MTTR) and improving service availability.</li>
+					<li>Led incident response efforts by coordinating with infrastructure, network, and application teams. Managed escalations effectively, ensuring smooth communication and swift resolution of service disruptions.</li>
+				</ul>
              </div>
 
              <div class="experience">
-                <h4 class="experience-period">August 2019 - May 2020</h4>
-                <h3 class="experience-title">IT Risk Consultant</h3>
-                <h4 class="experience-company">KPMG</h4>
-				<div class="experience-description">
-					<ul>
-						<li>Conducted IT risk audits and compliance assessments for major enterprises.</li>
-						<li>Led SOX audit evaluations, analyzing access controls, change management, and security policies.</li>
-						<li>Identified control gaps and recommended remediation strategies to strengthen IT security.</li>
-						<li>Delivered detailed audit reports, presenting findings to stakeholders and executives.</li>
-					</ul>
-				   </div>
+				<div class="exp-header">
+					<h3 class="title">IT Risk Consultant</h3>
+					<h3 class="period">August 2019 - May 2020</h3>
+				</div>
+                <h3 class="company">KPMG</h3>
+				<ul class="exp-description">
+					<li>Conducted IT risk audits for large enterprises across industries like finance, energy, and manufacturing. Evaluated security controls, compliance frameworks (SOX, COBIT, ISO 27001), and IT governance structures to identify vulnerabilities.</li>
+					<li>Led SOX compliance assessments, focusing on IT general controls such as user access management, change control, and data security. Performed evidence gathering, control testing, and risk analysis, ensuring compliance with regulatory requirements.</li>
+					<li>Identified gaps in IT security controls and provided tailored remediation strategies to strengthen cybersecurity resilience. Worked closely with client teams to implement corrective actions and reduce risk exposure.</li>
+					<li>Created detailed audit reports with findings, risk assessments, and recommendations. Presented results to senior management, translating technical risks into business impact insights to drive decision-making.</li>
+					<li>Adapted to tight deadlines and demanding client expectations, consistently delivering quality audit reports. Demonstrated problem-solving skills in complex security and compliance environments.</li>
+				</ul>
              </div>
+			
+			<div class="experience">
+				<div class="exp-header">
+					<h3 class="title">L1 Support Analyst</h3>
+					<h3 class="period">June 2019 - August 2019</h3>
+				</div>
+                <h3 class="company">Stefanini Brasil</h3>
+				<ul class="exp-description">
+					<li>Provided first-line IT support for Boticário Group employees, handling issues related to hardware, software, and connectivity. Diagnosed and resolved technical problems efficiently, minimizing downtime for end users.</li>
+					<li>Logged, prioritized, and managed support requests through ServiceNow, ensuring timely resolution. Escalated complex cases to N2 and N3 teams while maintaining clear documentation.</li>
+					<li>Created and maintained technical documentation for recurring issues, improving response efficiency for the support team. Enhanced troubleshooting workflows by providing clear resolution steps.</li>
+				</ul>
+            </div>
 
-			 <a href="#">More experiences detailed on my LinkedIn profile...</a>
+			<div class="experience">
+				<div class="exp-header">
+					<h3 class="title">L1 Support Intern</h3>
+					<h3 class="period">August 2018 - June 2019</h3>
+				</div>
+                <h3 class="company">São José dos Pinhais City Hall</h3>
+				<ul class="exp-description">
+					<li>Assisted municipal employees and contractors with troubleshooting hardware, software, and network-related issues. Provided both in-person and remote support, ensuring smooth daily operations.</li>
+					<li>Played a key role in deploying and configuring CUPS (Common UNIX Printing System) servers for over 500 printers across government offices. Standardized printing infrastructure, reducing maintenance overhead and improving efficiency.</li>
+					<li>Educated employees on IT best practices, security policies, and efficient use of software tools. Improved overall IT literacy, reducing the volume of recurring support requests.</li>
+				</ul>
+            </div>
+
+			<div class="experience">
+				<div class="exp-header">
+					<h3 class="title">L2 Support Intern</h3>
+					<h3 class="period">May 2017 - August 2018</h3>
+				</div>
+                <h3 class="company">T-Systems</h3>
+				<ul class="exp-description">
+					<li>Provided N2 technical support for internal systems across 12 Volkswagen production plants in Brazil, Germany, Argentina, India, and China. Diagnosed and resolved complex IT issues related to application performance, server operations, and network stability.</li>
+					<li>ssisted in rolling out IT systems for new Volkswagen manufacturing plants in China, collaborating with senior analysts on large-scale deployments. Ensured seamless integration and minimal disruption to production workflows.</li>
+					<li>Managed and maintained AIX server clusters, performing routine updates, monitoring performance, and troubleshooting system issues. Developed scripts to automate administrative tasks, improving operational efficiency.</li>
+				</ul>
+            </div>
         </div>
     </main>
 </body>
