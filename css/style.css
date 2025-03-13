@@ -63,7 +63,11 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-bottom: 2px solid blue;
+}
+
+#work-experience,
+#skills {
+    padding-top: 8dvh;
 }
 
 .about-title {
