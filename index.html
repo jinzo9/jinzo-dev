@@ -10,18 +10,18 @@
 </head>
 <body>
     <header>
-		<img id="about-profile-picture" src="./img/pfp.jpg" alt="My profile picture">
+		<a href="#top"><img id="about-profile-picture" src="./img/pfp.jpg" alt="My profile picture"></a>
         <nav>
-            <a href="#">About</a>
-            <a href="#">Experience</a>
-            <a href="#">Education</a>
-            <a href="#">Skills</a>
-            <a href="#">Certifications</a>
+            <a href="#about">About</a>
+            <a href="#work-experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
         </nav>
     </header>
 
     <main>
-        <div class="about">
+        <div id="about">
             <div class="about-header">
                 <h2 class="about-title">Lucas Rosario</h2>
 				<h3>Curitiba, Brazil</h3>
@@ -30,7 +30,7 @@
             <p class="about-description">I am an IT professional with over 7 years of experience in infrastructure monitoring, IT governance, and incident response in 24/7 operations. Recently, I completed the AWS Cloud Resume Challenge, where I developed a serverless application using AWS, Infrastructure as Code (IaC) with Terraform, and automated CI/CD. Currently, I am focused on Cloud Engineering and DevOps, applying my expertise with tools like AWS, Linux, Zabbix, and automation to ensure scalable, secure, and reliable systems.</p>
         </div>
 
-        <div class="work-experience">
+        <div id="work-experience">
             <h2 class="section-header">Experience</h2>
 
             <div class="experience">
@@ -119,7 +119,7 @@
             </div>
         </div>
 
-		<div class="education">
+		<div id="education">
 			<h2 class="section-header">Education</h2>
 
 			<div class="experience">
@@ -139,7 +139,7 @@
 			</div>
 		</div>
 
-		<div class="skills">
+		<div id="skills">
 			<h2 class="section-header">Skills</h2>
 			
 			<div class="skill-div">
@@ -203,6 +203,10 @@
 					<li><strong>Serverless & Cloud Services</strong>: AWS Lambda, AWS ECS, Docker, DynamoDB, API Gateway</li>
 				</ul>
 			</div>
+		</div>
+
+		<div id="certifications">
+
 		</div>
     </main>
 </body>
